@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+// middleware 
 function authenticate(req, res, next){
     let authheader = req.headers.authorization
 
